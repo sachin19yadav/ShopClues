@@ -1,0 +1,29 @@
+.list-div{
+    display: grid;
+    background-color: tomato;
+    width: 100%;
+}
+.list-div>ul>li{
+    list-style: none;
+    display: inline;
+    padding: 10px 301px 10px 301px;
+}
+.list-div>h3{
+    text-align: center;
+}
+
+.middle-footer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+    
+}
+.middle-footer>div{
+    background-color: thistle;  
+}
+
+.social-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+

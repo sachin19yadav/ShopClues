@@ -1,0 +1,141 @@
+.main{
+    width: 100%;
+    
+}
+
+.nav_first ul{
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+
+}
+.main .nav_first ul li{
+    display: inline-block;
+    padding-right: 5px;
+    list-style: none;
+    font-size: 11px;
+    color: #757575;
+}
+.main2{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+    margin-right: 40px;
+    font-size: 40px;
+}
+.main2 ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+  
+  }
+  .main2 .nav_second ul li{
+      display: inline-block;
+      padding-right: 5px;
+      list-style: none;
+      font-size: 18px;
+      color: #757575;
+      padding-left: 10px;
+  }
+
+/* search button style */
+.searchbtn input{
+ width: 100%;
+display: inline-block;
+background-color: #e9f6f7;
+height: 40px;
+padding-left: 50px;
+padding-bottom: 2px;
+border-radius: 4px;
+background-clip: padding-box;
+border: #dbf0f2 solid 1px;
+font-size: 15px;
+color: #353535;
+font-weight: 500;
+position: relative;
+z-index: 1;
+padding-right: 120px;
+    
+}
+.searchbtn button{
+
+display: block;
+background-color: #cf3851;
+height: 45px;
+padding-left: 20px;
+padding-bottom: 2px;
+border-radius: 4px;
+background-clip: padding-box;
+border: #dbf0f2 solid 1px;
+font-size: 20px;
+color: #e2dede;
+font-weight: 500;
+position: relative;
+z-index: 1;
+padding-right: 50px;
+    
+}
+
+.searchbtn{
+    display: flex;
+    margin-right: 40px;
+}
+
+.searchbar{
+    flex-grow: 3;
+    position: relative;
+}
+.main3{
+    width: 100%;
+    background-color: #24a3b5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main3 ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+  
+  }
+  .main3 .nav_third ul li{
+      display: inline-block;
+      padding-right: 5px;
+      list-style: none;
+      font-size: 18px;
+      color: #f5efef;
+      padding-left: 10px;
+  }
+  .main4{
+    width: 100%;
+    background-color: #f1f6f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.main4 ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+  
+  }
+  .main4 .nav_fourth ul li{
+      display: inline-block;
+      padding-right: 5px;
+      list-style: none;
+      font-size: 18px;
+      color: #020202;
+      padding-left: 15px;
+  }
+  
+  .searchicon{
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      z-index: 1;
+  }
+  
